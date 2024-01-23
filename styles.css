@@ -12,15 +12,24 @@ html {
 #board div {
     border-style: solid;
     border-color: rgba(0, 0, 0, .3);
+    box-sizing: border-box;
 }
 
 #board {
     border-width: 2px 0 0 2px;
     width: 960px;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    justify: space-between;
 }
 
 #board div {
-    border-width: 0 2px 2px 0
+    border-width: 0 2px 2px 0;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    justify: space-between;
 }
 div .touched {
     background-color: rgb(50, 50, 50);
