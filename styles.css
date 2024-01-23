@@ -1,0 +1,30 @@
+html {
+    box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after {
+    box-sizing: inherit;
+}
+
+#board,
+#board div {
+    border-style: solid;
+    border-color: rgba(0, 0, 0, .3);
+}
+
+#board {
+    border-width: 2px 0 0 2px;
+    width: 960px;
+}
+
+#board div {
+    border-width: 0 2px 2px 0
+}
+div .touched {
+    background-color: rgb(50, 50, 50);
+}
+.controls {
+    margin: 20px 20px 60px 20px;
+}
